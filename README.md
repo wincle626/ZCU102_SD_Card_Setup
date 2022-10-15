@@ -42,7 +42,7 @@ For create petalinux project for zcu102, download the 'xilinx-zcu102-v2019.1-fin
 
 ## VI. Prepare SD card
 
-It is the same process as ZCU106 evaluation board [here](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/bootfromsdcard.md). Please note, only kernel version from tag xilinx-v2020.1 has the hardware monitor driver for Infineon IRPS5401. 
+It is the same process as ZCU106 evaluation board [here](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/bootfromsdcard.md).
 
 Additionally, instead of using the root file system from Xilinx, the generic debian or ubuntu version can be found at [https://rcn-ee.com/](https://rcn-ee.com/rootfs/eewiki/minfs/) or [http://cdimage.ubuntu.com](http://cdimage.ubuntu.com/ubuntu-base/releases/). 
 

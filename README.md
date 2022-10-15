@@ -30,9 +30,9 @@
 
 Refer to the similar process for ZCU106 evaluation board [(here)](https://github.com/wincle626/ZCU106_Setup/blob/master/docs/imagefromsource.md), the only differences are the u-boot and device tree.
 
-For ZCU102 u-boot, use 'make xilinx_zynqmp_zcu104_revA_defconfig' to initiate the u-boot configuration. 
+For ZCU102 u-boot, use 'make xilinx_zynqmp_zcu102_revA_defconfig' to initiate the u-boot configuration. 
 
-For ZCU102 device tree, either choose zcu102 board in vivado to generate the device tree or find built device tree at "linux-xlnx/arch/arm64/boot/dts/xilinx/zynqmp-zcu104-revA.dtb" or "u-boot-xlnx/arch/arm/dts/zynqmp-zcu104-revA.dtb"). 
+For ZCU102 device tree, either choose zcu102 board in vivado to generate the device tree or find built device tree at "linux-xlnx/arch/arm64/boot/dts/xilinx/zynqmp-zcu102-revA.dtb" or "u-boot-xlnx/arch/arm/dts/zynqmp-zcu102-revA.dtb"). 
 
 ## V. Prepare boot image from PetaLinux
 

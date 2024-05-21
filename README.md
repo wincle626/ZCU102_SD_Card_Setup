@@ -69,3 +69,9 @@ More detail can be found on Ubuntu Network Configuration document [(here)](https
 Ubuntu has provided official sysroot files for Xilinx Ultrascale+ MPSoC Evaluation boards. Details can be found [(here)](https://ubuntu.com/download/xilinx). 
 
 ## V [Xilinx Reference](https://xilinx-wiki.atlassian.net/wiki/spaces/A/overview)
+
+## Some known issues
+
+In case meeting the issue of "pmu-fw is not running", it can be solved by following the pictures bellow and setting the SW6 switch correctly. 
+
+![alt text](https://github.com/wincle626/ZCU102_SD_Card_Setup/blob/main/pics/xxhdlcoder_ip_core_tutorial_mpsoc_switch.png)

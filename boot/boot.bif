@@ -1,0 +1,9 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[fsbl_config]a53_x64
+	[bootloader]/home/yunwu/workspaces/zcu102/boot/zynqmp_fsbl.elf
+	[pmufw_image]/home/yunwu/workspaces/zcu102/boot/pmufw.elf
+	[destination_cpu = a53-0, exception_level = el-3, trustzone]/home/yunwu/workspaces/zcu102/boot/bl31.elf
+	[destination_cpu = a53-0, exception_level = el-2]/home/yunwu/workspaces/zcu102/boot/u-boot.elf
+}

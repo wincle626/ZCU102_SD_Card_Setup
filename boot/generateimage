@@ -1,0 +1,3 @@
+mkimage -n 'Kernel Image' -A arm64 -O linux -C none -T kernel -a 0x8000 -e 0x8000 -d Image uImage
+bootgen -image boot.bif -arch zynqmp -o i boot.bin -w
+mkimage -f fitimage.its fitimage.itb
